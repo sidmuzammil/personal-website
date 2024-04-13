@@ -13,7 +13,7 @@ import { website } from '../assets'
 const ProjectCard = ({index, name, description, tags, image, figma_link, github_link, playstore_link, isLogo, isPlaystore, isWeb, web_link, isFigma}) =>
 {
   return(
-    <motion.div variants={fadeIn("left", "spring", index * 0.5, 0.75)} >
+    <div >
       <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[550px] '>
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
@@ -57,7 +57,7 @@ const ProjectCard = ({index, name, description, tags, image, figma_link, github_
           ))}
         </div>
       </div>
-    </motion.div>
+    </div>
   )
 }
 
