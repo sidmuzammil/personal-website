@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { github } from '../assets'
@@ -14,7 +13,7 @@ import { website } from '../assets'
 const ProjectCard = ({index, name, description, tags, image, figma_link, github_link, playstore_link, isLogo, isPlaystore, isWeb, web_link, isFigma}) =>
 {
   return(
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("left", "spring", index * 0.5, 0.75)} >
       <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[550px] '>
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
@@ -65,16 +64,16 @@ const ProjectCard = ({index, name, description, tags, image, figma_link, github_
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant} >
         <p className={`${styles.sectionSubText} flex justify-evenly items-center`}>MY WORK</p>
         <h2 className={`${styles.sectionHeadText} flex justify-evenly items-center`}>Creative Projects.</h2>
       </motion.div>
 
       <div className='w-full flex justify-evenly items-center'>
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center'>
+        <p  className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center'>
           Welcome to a world of creativity and innovation! Explore my diverse portfolio of real world projects that showcase my passion and skills across various domains.
           It reflects my ability to solve complex problems, work with different technologies and manage projects effectively
-        </motion.p>
+        </p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7 justify-center'>
