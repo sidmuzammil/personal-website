@@ -200,10 +200,6 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Next.js",
-          color: "green-text-gradient",
-        },
-        {
           name: "Tailwind.css",
           color: "pink-text-gradient",
         },
