@@ -18,6 +18,7 @@ import {
     tourist,
     foodDelivery,
     dashboard,
+    Todoapp,
  
   } from "../assets";
   
@@ -215,6 +216,31 @@ import {
       figma_link: "https://www.figma.com/proto/phBth7woFMJrzD2xe8dLyY/VA-prototype?page-id=0%3A1&type=design&node-id=1-720&viewport=192%2C3037%2C0.17&t=LYnIpxbeAt08yCy6-1&scaling=min-zoom&starting-point-node-id=1%3A720&mode=design",
       github_link: "https://github.com/sidmuzammil/software-company",
       web_link: "https://software-company-flax.vercel.app/",
+      isLogo:true,
+      isWeb: true,
+    },
+    {
+      name: "Todo App",
+      description:
+        "I've engineered a comprehensive todo application employing React.js for interactive user interfaces, Redux for managing application state, Thunk middleware for handling asynchronous actions, and local storage for persistent data storage, culminating in a robust and user-friendly task management solution.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Todoapp,
+      figma_link:"https://www.figma.com/file/9oapdvCcBAItJ3dkqhPnoL/project-management-app?type=design&node-id=3%3A2&mode=design&t=ZcPgCqmZyEY3dXDC-1",
+      github_link: "https://github.com/sidmuzammil/todo-app",
+      web_link: "https://todo-app-taupe-six-44.vercel.app/",
       isLogo:true,
       isWeb: true,
     },
