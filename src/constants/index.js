@@ -208,6 +208,10 @@ import {
           color: "pink-text-gradient",
         },
         {
+          name: "Framer motion",
+          color: "blue-text-gradient",
+        },
+        {
           name: "firebase",
           color: "yellow-text-gradient",
         },
@@ -235,6 +239,10 @@ import {
         {
           name: "css",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Framer motion",
+          color: "blue-text-gradient",
         },
       ],
       image: Todoapp,
